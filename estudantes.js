@@ -12,5 +12,13 @@ class estudante {
             totalDeNotas = totalDeNotas + this.notas[i];
         }
         media = totalDeNotas / this.notas.length;
+        if (media >= 7) {
+            return "parabens," + this.nome + "sua media e " + media + " e voce esta aprovado(a).";
+        }
+        else {
+            return this.nome + "sua media é " + media + " e voce precisa estudar mais para melhorar seu desempenho";
+        }
     }
 }
+let estudante1 = new estudante("maria", 16, [6, 7, 9]);
+console.log(estudante1.calcularMedia());
