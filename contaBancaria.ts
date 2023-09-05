@@ -5,7 +5,7 @@ class banco{
 
 constructor(nome:string,saldo:number){
     this.nome=nome;
-    this.saldo=saldo;
+    this.saldo=saldo; 
 }
 
 depositar(deposito:number){
