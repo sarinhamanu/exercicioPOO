@@ -117,7 +117,7 @@ console.log(produtosCarrinho.exibirValorCarrinho());
 
 console.log(produtosCarrinho.remover(produtos2));
 console.log(produtosCarrinho.adicionarProdutoCarrinho(produtos2));
-console.log(produtosCarrinho.adicionarProdutoCarrinho(produtos3));
-console.log(produtosCarrinho.RemoverProdutoCarrinho(produtos3));
+console.log(produtosCarrinho.adicionarProdutoCarrinho(produtos2));
+console.log(produtosCarrinho.RemoverProdutoCarrinho(produtos2));
 console.log(produtosCarrinho.exibirProduto());
 console.log(produtosCarrinho.exibirValorCarrinho());
